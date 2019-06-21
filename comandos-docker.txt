@@ -1,0 +1,7 @@
+docker run --name database -p 5432:5432 -d -t kartoza/postgis
+
+docker build -t rocketseat-node .  // Cria uma nova imagem a partir do dockfile
+
+docker-compose up -d --build -> AJUDA COM CASH - Executa o arquivo docker-compose.yml 
+
+docker-compose down - Stopa todos os containers
